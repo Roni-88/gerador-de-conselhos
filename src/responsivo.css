@@ -1,11 +1,6 @@
 @media (max-width: 530px) {
     .principal {
-        width: 380px;
-        height: 450px;       
-    }
-
-    .principal p {
-        padding: 15px;
+        width: 380px;       
     }
 
     .botao {
@@ -18,25 +13,33 @@
 
     .linha {
         display: none;
-        
+    }
+
+    .linha2 {
+        display: block;
+        padding-top: 30px;
     }
 }
 
 @media (max-width: 395px) {
     .principal {
-        width: 300px;
-        height: 450px;       
+        width: 320px;
+        height: 400px;      
     }
 
     .principal p {
         padding: 15px;
     }
 
+    .linha2 {
+        padding-top: 15px;
+    }
+
     .botao {
-        right: 110px;
+        right: 120px;
     }
 
     .dado {
-        right: 134px;
+        right: 144px;
     }
 }
