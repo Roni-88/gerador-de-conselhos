@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Open+Sans&display=swap');
+
+html {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center; 
+}
+
+body {
+    background-color: hsl(218, 23%, 16%);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+}
+
+.principal {
+    background-color: hsl(217, 19%, 24%);
+    width: 500px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 50px rgba(8, 8, 8, 0.448);
+    text-align: center;
+}
+
+.principal h3 {
+    color: hsl(150, 100%, 66%);
+    padding: 50px 0 40px 0;    
+}
+
+.principal p {
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+}
+
+.linha {
+    padding-top: 45px;
+}
+
+.gerador {
+    position: relative;
+}
+
+.botao {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: hsl(150, 100%, 66%);
+    position: absolute;
+    top: -40px;
+    right: 210px;
+    border: none;
+    cursor: pointer;
+}
+
+.botao:hover {
+    box-shadow: 0px 5px 40px hsl(150, 100%, 66%);
+    transition: 0.2s ease-in-out;
+}
+
+.dado {
+    position: absolute;
+    right: 234px;
+    top: -15px;
+    width: 32px;
+    cursor: pointer;
+}
