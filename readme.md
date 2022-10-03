@@ -9,6 +9,6 @@ A base de conselhos é buscada através do consumo da API https://api.adviceslip
 - CSS
 - JavaScript
 
-[<img src="./src/imagens/mestres.gif" alt="gif da tela do projeto">](https://roni-88.github.io/gerador-de-conselhos)
+[<img src="./src/imagens/conselhos.gif" alt="gif da tela do projeto">](https://roni-88.github.io/gerador-de-conselhos)
 
 Clique na imagem para acessar o projeto!
