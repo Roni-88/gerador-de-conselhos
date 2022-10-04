@@ -8,7 +8,7 @@
     }
 
     .dado {
-        right: 174px;
+        right: 24px;
     }
 
     .linha {
@@ -39,9 +39,5 @@
 
     .botao {
         right: 120px;
-    }
-
-    .dado {
-        right: 144px;
     }
 }

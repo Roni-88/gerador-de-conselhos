@@ -22,7 +22,7 @@ body {
 .principal {
     background-color: hsl(217, 19%, 24%);
     width: 500px;
-    height: 400px;
+    height: 450px;
     border-radius: 15px;
     box-shadow: 0px 5px 50px rgba(8, 8, 8, 0.448);
     text-align: center;
@@ -72,13 +72,8 @@ body {
 
 .dado {
     position: absolute;
-    right: 234px;
-    top: -15px;
+    right: 24px;
+    top: 25px;
     width: 32px;
     cursor: pointer;
-}
-
-.dado:hover {
-    box-shadow: 0px 5px 80px hsl(150, 100%, 66%);
-    transition: 0.2s ease-in-out;
 }
