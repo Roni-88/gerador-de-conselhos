@@ -1,0 +1,22 @@
+{
+  "name": "desafio-gerador-de-conselhos",
+  "version": "1.0.0",
+  "description": "Projeto realizado como estudo no curso DevQuest. Ele consiste em sempre que o usuário clicar no botão, seja gerado um novo e aleatório conselho. <br>\r A base de conselhos é buscada através do consumo da API https://api.adviceslip.com. Utilizando o método \"fetch\" em uma função assíncrona.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roni-88/gerador-de-conselhos.git"
+  },
+  "author": "Roni 88",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Roni-88/gerador-de-conselhos/issues"
+  },
+  "homepage": "https://github.com/Roni-88/gerador-de-conselhos#readme",
+  "devDependencies": {
+    "jest": "^29.1.2"
+  }
+}

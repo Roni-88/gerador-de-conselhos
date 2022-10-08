@@ -11,3 +11,5 @@ async function geradorDeConselhos () {
     conteudo.innerText = `${conselhoGerado.slip.advice}`
 }
 geradorDeConselhos ()
+
+module.exports = geradorDeConselhos
